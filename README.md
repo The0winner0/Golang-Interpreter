@@ -1,3 +1,5 @@
+This project is inspired by and adapted from the Java implementation of the Lox interpreter by Robert Nystrom. The provided framework was re-engineered to support the syntax and features of a subset of the GoLang language.
+
 # GoLang Interpreter in Java
 
 A multi-stage interpreter for a subset of the Go programming language, written entirely in Java. This project demonstrates a complete language processing pipeline, from lexical analysis to execution, including static analysis for variable resolution.
