@@ -1,4 +1,4 @@
-This project is inspired by and adapted from the Java implementation of the Lox interpreter by Robert Nystrom. The provided framework was re-engineered to support the syntax and features of a subset of the GoLang language.
+This project is inspired by and adapted from the [Java implementation of the Lox interpreter](https://github.com/munificent/craftinginterpreters/tree/master/java/com/craftinginterpreters/lox) from the book *"Crafting Interpreters"* by Robert Nystrom. The provided framework was re-engineered to support the syntax and features of a subset of the GoLang language.
 
 # GoLang Interpreter in Java
 
