@@ -1,0 +1,29 @@
+
+import "fmt"
+
+var globalVar1 int = 10
+var globalVar2 int = 5
+var globalVar3 int = 15
+func main() {
+    if globalVar1 > globalVar2 {
+        fmt.Println("globalVar1 is greater than globalVar2")
+    } else {
+        fmt.Println("globalVar2 is greater than or equal to globalVar1")
+    }
+
+    for i := 0; i < 5; i=i+1 {
+        fmt.Println("Iteration ", i)
+    }
+
+    resultSum := globalVar1 + globalVar2
+    var resultDiff = globalVar1 - globalVar2
+    resultQuot := globalVar1 / globalVar2
+    var resultProd int = globalVar1 * globalVar2
+    var resultbodmas  =  globalVar1*globalVar2-globalVar3+globalVar1
+    fmt.Println("Sum: ", resultSum)
+    fmt.Println("Difference:  ", resultDiff)
+    fmt.Println("Product: ", resultProd)
+    fmt.Print("Quotient: ", resultQuot)
+    fmt.Println("Hello, GoLang!")
+    fmt.Println(" BODMAS: ", resultbodmas )
+}

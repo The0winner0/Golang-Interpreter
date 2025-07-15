@@ -1,0 +1,27 @@
+//> Scanning token-type
+package Golang;
+
+enum TokenType {
+    // Single-character tokens.
+    LEFT_PAREN, RIGHT_PAREN, LEFT_BRACE, RIGHT_BRACE,
+    COMMA, DOT, MINUS, PLUS, SEMICOLON, SLASH, STAR,
+
+    // One or two character tokens.
+    BANG, BANG_EQUAL,
+    EQUAL, EQUAL_EQUAL,
+    GREATER, GREATER_EQUAL,
+    LESS, LESS_EQUAL,
+REM,
+    // Literals.
+    IDENTIFIER, STRING, NUMBER,
+
+    // Keywords.
+    AND, CLASS, ELSE, FALSE, FUN, FOR, IF, NIL, OR,
+    PRINT, RETURN, SUPER, THIS, TRUE, VAR, WHILE,
+    COLON_EQUAl,
+    INT, FLOAT, BOOL, PRINTLN, STR,
+    ENDL,
+    FMT,
+    PACKAGE,IMPORT,COLON, MAIN,
+    EOF
+}

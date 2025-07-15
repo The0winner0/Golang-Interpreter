@@ -1,0 +1,21 @@
+globalVar1 is greater than globalVar2
+Iteration 
+0
+Iteration 
+1
+Iteration 
+2
+Iteration 
+3
+Iteration 
+4
+Sum: 
+15
+Difference:  
+5
+Product: 
+50
+Quotient: 2Hello, GoLang!
+ BODMAS: 
+45
+
